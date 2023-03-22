@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #4D5EB2;
+    justify-content: space-between;
+    
+    display: flex;
+    padding: 20px 175px;
+}
+
+.img_cabecalho {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.ul_cabecalho_itens {
+    display: flex;
+    align-items: center;
+}
+
+.li_cabecalho_item {
+    display: inline-block;
+    margin: 0 16px;
+
+    font-size: 22px;
+    font-family: 'Sansation', regular;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+.li_cabecalho_item a {
+    text-decoration: none;
+}
+
+.li_cabecalho_item:hover {
+    text-decoration: underline;
+}
+
+#section_sobre {
+    background-image: linear-gradient(#4D5EB2, #8D9DEB);
+    font-family: sansita;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 9% 0
+}
+
+.div_textos_sobre {
+    padding: 20px 10px;
+    font-size: 23px;
+    width: 800px;
+}
+
+.div_textos_sobre h2 {
+    padding: 20px 0
+}
+
+#section_preço {
+    padding: 10px 250px 100px;
+    font-family: sansita;
+    text-transform: uppercase;
+    background-color: #9392df
+}
+
+.h2_preço_titulo {
+    text-align: center;
+    padding: 75px 0;
+    font-size: 30px;
+
+    color:rgb(19, 19, 19)
+}
+
+.div_caixas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_caixa_preço {
+    text-align: center;
+    border: blueviolet solid 2px;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+.h3_preço_titulo {
+    font-size: 25px;
+}
+
+.h2_preço {
+    color: rgb(27, 90, 2);
+}
+
+footer {
+    background-color: rgb(19, 19, 19);
+    padding: 10px 0;
+
+    text-align: center;
+}
+
+.img_rodape_logo {
+    width: 23%;
+}

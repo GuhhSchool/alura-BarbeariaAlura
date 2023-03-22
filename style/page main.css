@@ -16,7 +16,7 @@ header {
 }
 
 .img_cabecalho {
-    width: 25%;
+    width: 60%;
     display: flex;
     align-items: center;
 }
@@ -56,7 +56,7 @@ header {
 }
 
 .div_textos_sobre {
-    padding: 20px 10px;
+    padding: 0px 10px 150px;
     font-size: 23px;
     width: 800px;
 }
@@ -66,21 +66,21 @@ header {
 }
 
 #section_preço {
-    padding: 10px 250px 100px;
+    padding: 0px 250px 10px;
     font-family: sansita;
-    text-transform: uppercase;
     background-color: #9392df
 }
 
 .h2_preço_titulo {
     text-align: center;
-    padding: 75px 0;
-    font-size: 30px;
+    padding: 35px 0;
+    font-size: 45px;
 
     color:rgb(19, 19, 19)
 }
 
 .div_caixas {
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
 }
@@ -98,6 +98,27 @@ header {
 
 .h2_preço {
     color: rgb(27, 90, 2);
+}
+
+.button_agendar {
+    margin: 50px auto; 
+    padding: 15px;
+    display: flex;
+    
+    font-size: 30px;
+    font-family: sansila;
+    text-transform: uppercase;
+    background-color: transparent;
+    
+    border: purple solid 2px;
+    border-radius: 15px;
+
+    transition: font-size 0.5s;
+}
+
+.button_agendar:hover {
+    font-size: 220%;
+    cursor: pointer;
 }
 
 footer {
